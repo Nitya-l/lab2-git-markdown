@@ -76,13 +76,18 @@ nothing added to commit but untracked files present (use "git add" to track)
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
    
-   Yes! My commit was sucessful because when I used the ls command to see all the files listed in the folder, I saw my newly added books file. 
+   ```
+   PS C:\Users\Nitya\OneDrive - UW\2022-2023\Winter 2023\Info 201\Labs\lab2-git-markdown> ls
+   ```
+   
+   Yes! My commit was sucessful because when I used the ls command to see all the files listed in the folder, I saw my newly added books file as well as my readme file with my last edited time.  
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
 11. Go to your github page.  Can you see the books.md file there with
     all the books listed?
+    
 Yes, my books.md file is visible with the list of books I added included in the file. 
 
 ## Folders and relative path
@@ -98,11 +103,18 @@ This task is about adding images and using relative path.
    
 3. check git status.  What do you see?
 
+I see images/ indicating that a new images folder was created in the folder I am at right now (lab 2). 
+
 4. add image to the repo.  Show the command you are using in a code
    block.
+   ```
+   git add Court.jpeg
    
-5. check status again.  Does it indicate that the image has been
-   added?
+   ```
+   
+5. check status again.  Does it indicate that the image has been added?
+ 
+ Yes it indicates the image has been added because it shows the file in green as changes to be commited
    
 6. what is the relative path of your image if you start walking there
    from the location of your books.md file?
@@ -123,3 +135,4 @@ This task is about adding images and using relative path.
 
 10. check on github--does your books.md file now contain the image?
 
+Yes!
