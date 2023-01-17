@@ -23,7 +23,9 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
-   
+   ``` 
+   git clone https://github.com/Nitya-l/lab2-git-markdown.git
+   ```
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
    convenient.
@@ -37,30 +39,51 @@ tasks are comparable.  Here are the tasks:
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
-   
+   ```
+      On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        books.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+   ```
    Explain, in plain text, what does it mean.
-   
+  
+  This means that the changes I have made to the books file are currently unsaved and I can use the git add command to save and add to my repo. 
+  
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+  ```
+   git add books.md
+   
+   ```
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
+   When I checked status, I saw a green text that indicated my file was added and that the main branch was up to date 
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
+   ```
+    git commit -am "Added books file"
+   ```
    
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
+   
+   Yes! My commit was sucessful because when I used the ls command to see all the files listed in the folder, I saw my newly added books file. 
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
 11. Go to your github page.  Can you see the books.md file there with
     all the books listed?
-
+Yes, my books.md file is visible with the list of books I added included in the file. 
 
 ## Folders and relative path
 
