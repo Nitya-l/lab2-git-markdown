@@ -4,4 +4,4 @@
 - Animal Farm 
 - One of Us is Lying
 
-![Court](../images/Court.jpeg)
+![Court](./images/Court.jpeg)
